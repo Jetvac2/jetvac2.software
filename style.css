@@ -2,6 +2,11 @@ html, body {
   height: 100%;
   width: 100%;
   
-  background-color: lightgrey;
-  color: blue;
+  background-color: #5c5c5c;
+  color: #6d2eff;
+}
+
+li {
+  background-color: #cfcfcf;
+  color: white;
 }

@@ -1,1 +1,1 @@
-document.write("Welcome to Javatpoint");
+//document.write("Welcome to Javatpoint");
