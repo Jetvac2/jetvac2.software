@@ -43,3 +43,18 @@ img {
   margin-right: auto;
   width: 50%;
 }
+
+#mainPage {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+#pageLinks {
+  color:#16923f;
+  text-align: center;
+  list-style-position: inside;
+  margin-left: 30%;
+  font-size: 100px;
+  font-family: sans-serif;
+}
