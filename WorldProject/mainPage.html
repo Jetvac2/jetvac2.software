@@ -5,16 +5,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GoBattuta</title>
   <link href="mainPage.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?      family=Chivo:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
+
+
 </head>
 
 <body>
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
   <div class="header">
       <h1>Welcome to GoBattuta</h1>
     </div>
@@ -203,11 +206,11 @@
   </div>
   
   <br>
-  <button class="fakeButton" onclick="alert('NO')">Purchase Tour!</button>
+  <button id="evil-button">Purchase Tour!</button>
   </button>
   <br>
 
-  
+  <script defer src="button.js"></script>
 </body>
 
 </html>

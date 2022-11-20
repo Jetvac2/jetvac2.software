@@ -5,6 +5,7 @@
 
 body {
   background-color: #635f5f;
+  
 }
 
 body, html {
@@ -69,7 +70,7 @@ left: 10px;
 top: 30px;
 }
 
-.fakeButton {
+#evil-button {
   width: 50%;
   height: 200px;
   font-size: 75px;
@@ -78,12 +79,14 @@ top: 30px;
   margin-right: auto;
   display: block;
   box-shadow: 4px 4px 64px 0 black;
-  transition: 0.2s;
+  transition: 0.05s;
   background-color: rgba(0, 0, 0, 0.2);
   border: none;
+  position: absolute;
+  white-space: nowrap;
 }
 
-.fakeButton:hover {
+#evil-button:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -122,7 +125,7 @@ top: 30px;
   }
 
 
-  .fakeButton {
+  #evil-button {
     font-size: large;
     height: fit-content;
     padding: 10px;
