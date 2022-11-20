@@ -1,0 +1,140 @@
+@font-face {
+  font-family: worldFont;
+  src: url("/worldFont.ttf");
+}
+
+body {
+  background-color: #635f5f;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: worldFont, Arial, Helvetica, sans-serif;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  height: 100px;
+  background: rgb(0,0,57);
+background: linear-gradient(180deg, rgba(0,0,57,1) 0%, rgba(0,0,62,1) 60%, rgba(191,191,191,0) 100%);
+  margin: 0;
+  z-index: 2;
+position: absolute;
+width: 100%;
+  color: #c1c1c1;
+}
+
+.header h1 {
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Pictures/header.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*
+  position: absolute;
+  top: 0;
+  left: 0;*/
+  z-index: -1;
+  height: 0;
+  padding-bottom: 40.4%;
+  box-shadow: 4px 4px 64px 0 #8a8a8a;
+  margin-top: 60px;
+}
+
+.intro {
+  background-color: rgba(211, 211, 211, 0.7);
+  width: 50%;
+  padding-left: 10px;
+  height: 0;
+  position: absolute;
+  padding-top: 40.4%;
+  left: 0;
+  font-size: 2.75vw;
+  
+}
+
+.intro h2 {
+  position: absolute;
+left: 10px;
+top: 30px;
+}
+
+.fakeButton {
+  width: 50%;
+  height: 200px;
+  font-size: 75px;
+  font-family: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 4px 4px 64px 0 black;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.fakeButton:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.day {
+  background-color: rgba(211, 211, 211, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 90%;
+  box-shadow: 4px 4px 64px 0 black;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.day h2 {
+  font-size: 30px;
+  margin:0;
+}
+
+.plan {
+  text-align: left;
+  font-size: 20px;
+
+}
+
+.his {
+  text-align: left;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .day h2 {
+    font-size: x-large;
+  }
+
+
+  .fakeButton {
+    font-size: large;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header h1 {
+    font-size: 30px;
+    padding-top: 8px;
+  }
+}
